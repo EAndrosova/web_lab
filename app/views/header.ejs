@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <% if (ENV_DEVELOPMENT) { %>
+    <script src="http://localhost:35729/livereload.js"></script>
+  <% } %>
+  
+  <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+
+    <script type="text/javascript">
+        VK.init({apiId: 5389460, onlyWidgets: true});
+    </script>
+    
+    
+</head>
+<body id="index" class="home">
+<div id="wrapper">
+	<header id="banner" class="body">
+		<h1>where2travel</h1>
+		<p class="ads">find new travelling destinations and all usefull info about them.</p>
+		<p class="ads">start discovering the world now!</p>
+	</header>
